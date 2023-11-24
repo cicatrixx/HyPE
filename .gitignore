@@ -1,0 +1,12 @@
+/data
+<<<<<<< HEAD
+/output
+*.fig
+=======
+>>>>>>> c51e4baf3bf77b511f1c9b5536dbac8ebc82674b
+/cbrewer2_samples.png
+.Rproj.user
+*.RData
+*.Rhistory
+*.Rproj
+*.asv

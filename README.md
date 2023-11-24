@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/723064163.svg)](https://zenodo.org/doi/10.5281/zenodo.10204322)
+
 # The Hydropower Potential Explorer (HyPE) model
 This repository provides the source codes and documentation for the HyPE model developed by Dhaubanjar et al. (2021, 2023a, 2023b) under the SustainIndus project. The HyPE model performs a spatial analysis to explore hydropower potential at user-defined river segmentation through out the basin to evaluate theoretical, technical, financial and sustainable potential. The theoretical potential module is physically-based with the hydropower potential equation applied to evaluate hydropower energy that can theoretically be generated from water flow between two grid cells. The other potential modules use a cost-minimization framework to find optimal combinations of two run-of-river hydropower plant configurations - River power plant (RP) and Diversion canal plant (DP).
 

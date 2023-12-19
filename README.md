@@ -62,7 +62,7 @@ Different scenario setup was used for the historical and future potential analys
 Direct model outputs can be downloaded from the ICIMOD RDS for [historical](10.26066/rds.1973690) and [future](10.26066/rds.1973697) potential datasets. Additionally, visualized potential inventory for the upper Indus compiled along side the HyPE model can be found [here]( 10.26066/rds.1973705).
 
 ### Interactive Viewers
-You can interact with subbasin total results from the HyPE model in the [Indus Knowledge Partnership Platform](https://edu.nl/wqxrh and [our storymap](https://edu.nl/w3bfm). 
+You can interact with subbasin total results from the HyPE model in the [Indus Knowledge Partnership Platform](https://edu.nl/wqxrh) and [our storymap](https://edu.nl/w3bfm). 
 
 ## Publication and Media
 1. The HyPE model development and its application to the upper Indus are documented in three peer-reviewed papers.

@@ -15,6 +15,8 @@ The **documentation** folder contains supporting files documenting analysis work
 The **papers** folder contains the published papers supporting this work.
 
 The  **output** folder contains the model outputs as well as processed figures and tables.
+
+The **SPHY** folder contains the setup for hydrological modeling using the [Spatial Processes in Hydrology (SPHY)](https://github.com/FutureWater/SPHY) cryosphere-hydrology model. We use the SPHY model developed for UIB created by Khanal et al. (2021) to simulate runoff for historical and future timeframes. The _**addons**_ and _**postprocess**_ folders contain python scripts for pre/post processing steps supporting the hydrological model.
 ```
 ├── Hydrus
 │   ├── dataprep
@@ -36,7 +38,21 @@ The  **output** folder contains the model outputs as well as processed figures a
 ├── documentation
 ├── papers
 └── output
+└── SPHY
+    ├── Forcing_fut
+    ├── UIB_basic_model
+    │   ├── addons
+    │   └── postprocess
+    ├── UIB_outputs_all
+    └── UIB_outputs_LTMavgs
+        ├── ssp245
+        ├── ssp370
+        └── ssp585
+
 ```
+
+## Requirements
+The HyPE model is based in MATLAB but there are some R and python scripts for data processing and visualization. 
 
 ## Installation
 <!--How does the user access your project? (E.g. download, or clone with git clone…)-->
@@ -78,8 +94,14 @@ Dhaubanjar, S., Lutz, A. F., Gernaat, D. E. H. J., Nepal, S., Smolenaars, W., Pr
 This repository was developed for research conducted under the [SustainIndus](https://www.sustaindus.org/) project. The project received funding from the Netherlands Organization for Scientific Research under WOTRO Joint Sustainable Development Goals (SDG) research program (Grant W 07.30318.002). This work was partially supported by Sustainable Development Investment Portfolio (SDIP), the Department of Foreign Affairs and Trade (DFAT), Government of Australia, the Swiss Agency for Development and Cooperation (SDC) and by core funds from ICIMOD contributed by the governments of Afghanistan, Australia, Austria, Bangladesh, Bhutan, China, India, Myanmar, Nepal, Norway, Pakistan, Switzerland and the United Kingdom. 
 
 ## References
-1. Dhaubanjar S, Lutz AF, Gernaat DEHJ, et al (2021) A systematic framework for the assessment of sustainable hydropower potential in a river basin – The case of the upper Indus. Sci Total Environ 786:. https://doi.org/10.1016/j.scitotenv.2021.147142
+1. Dhaubanjar, S., Lutz, A. F., Smolenaars, W. J., Khanal, S., Jamil, M. K., Biemans, H., Ludwig, F., Shrestha, A. B., & Immerzeel, W. W. (2023). Quantification of run-of-river hydropower potential in the Upper Indus basin under climate change. Frontiers in Water. https://doi.org/10.3389/frwa.2023.1256249
 
-1. Gernaat DEHJ (2019) The role of renewable energy in long-term energy and climate scenarios
+2. Dhaubanjar, S., Lutz, A., Pradhananga, S., Smolenaars, W., Khanal, S., Biemans, H., Shrestha, A. B., & Immerzeel, W. (2023). From theoretical to sustainable potential for run-of-river hydropower development in the upper Indus river basin. Applied Energy. https://doi.org/10.1016/j.apenergy.2023.12.2372
+  
+4. Khanal, S., Lutz, A. F., Kraaijenbrink, P. D. A., van den Hurk, B., Yao, T., & Immerzeel, W. W. (2021). Variable 21st Century Climate Change Response for Rivers in High Mountain Asia at Seasonal to Decadal Time Scales. Water Resources Research, 57(5), e2020WR029266. https://doi.org/10.1029/2020WR029266
+  
+6. Dhaubanjar, S., Lutz, A. F., Gernaat, D. E. H. J., Nepal, S., Smolenaars, W., Pradhananga, S., Biemans, H., Ludwig, F., Shrestha, A. B., & Immerzeel, W. W. (2021). A systematic framework for the assessment of sustainable hydropower potential in a river basin – The case of the upper Indus. Science of The Total Environment, 786, 147142. https://doi.org/10.1016/j.scitotenv.2021.147142
 
-1. Gernaat DEHJ, Bogaart PW, Vuuren DPV, et al (2017) High-resolution assessment of global technical and economic hydropower potential. Nat Energy 2:821–828. https://doi.org/10.1038/s41560-017-0006-y
+7. Gernaat DEHJ (2019) The role of renewable energy in long-term energy and climate scenarios
+
+8. Gernaat DEHJ, Bogaart PW, Vuuren DPV, et al (2017) High-resolution assessment of global technical and economic hydropower potential. Nat Energy 2:821–828. https://doi.org/10.1038/s41560-017-0006-y

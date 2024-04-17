@@ -85,6 +85,25 @@ You can interact with subbasin total results from the HyPE model in the [Indus K
 2. Read [our storymap](https://edu.nl/w3bfm) for major highlights of the research.
 3. A video is available from the presentation of the conceptual model at [AGU 2020](https://edu.nl/kph88). 
 4. Check out the project website for [SustainIndus](https://edu.nl/vngvf).
+
+Below is a summary of all outputs related to this work:
+ Outer pipes Cell padding
+
+| **Product**                                                                             | **DOI**                         | **URL**                                                                                                                |
+| --------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| PhD Thesis titled ‘The future of sustainable hydropower development in the Indus basin’ | 10.33540/2281                   | [https://books.ipskampprinting.nl/thesis/637573-Dhaubanjar/](https://books.ipskampprinting.nl/thesis/637573-Dhaubanjar/)                                                                                                              |
+| Paper on systematic framework behind HyPE                                               | 10.1016/j.scitotenv.2021.147142 | [https://edu.nl/7cxcx](https://edu.nl/7cxcx)                                                                           |
+| Paper on current hydropower potential assessment in the Indus using HyPE                | 10.1016/j.apenergy.2023.12.2372 | [https://edu.nl/n3m76](https://edu.nl/n3m76)                                                                           |
+| Paper on future hydropower potential assessment in the Indus using HyPE                 | 10.3389/frwa.2023.1256249       | [https://edu.nl/w9eq8](https://edu.nl/w9eq8)                                                                           |
+| Storymap Summary for Policymakers                                                       |                                 | [https://edu.nl/w3bfm](https://edu.nl/w3bfm)                                                                           |
+| Model Github                                                                            | 10.5281/zenodo.10204323         | [https://github.com/cicatrixx/HyPE](https://github.com/cicatrixx/HyPE)                                                 |
+| Preprocessed input data                                                                 | 10.5281/zenodo.10234264         | [https://zenodo.org/records/10234264](https://zenodo.org/records/10234264)                                             |
+| Inventory of visualized hydropower potential                                            | 10.26066/rds.1973705            | [https://rds.icimod.org/Home/DataDetail?metadataId=1973705](https://rds.icimod.org/Home/DataDetail?metadataId=1973705) |
+| Historical hydropower potential                                                         | 10.26066/rds.1973690            | [https://rds.icimod.org/Home/DataDetail?metadataId=1973690](https://rds.icimod.org/Home/DataDetail?metadataId=1973690) |
+| Future hydropower potential                                                          | 10.26066/rds.1973697            | [https://rds.icimod.org/Home/DataDetail?metadataId=1973697](https://rds.icimod.org/Home/DataDetail?metadataId=1973697) |
+| Interactive results portal IKPP                                                         |                                 | [https://edu.nl/wqxrh](https://edu.nl/wqxrh)                                                                           |
+| AGU 2020 recorded presentation                                                          |                                 | [https://edu.nl/kph88](https://edu.nl/kph88)                                                                           |
+ 
  
 ## Citation
 Please cite the HyPE model as follows:
